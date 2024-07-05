@@ -1,6 +1,6 @@
 # Depixelator and Detector Models
 
-![Example Image](depixelation_examples/protest_d4_collage.jpg)  
+![Depixelation Example](https://github.com/nafis71041/pixelation_correction/blob/main/depixelation_examples/success4_protest_4x_lanczos_nearest.png)
 An exemplary collage image of a pixelated image, depixelated by our model, and the ground truth.
 
 ## Description
@@ -22,12 +22,10 @@ Pixelation is a common issue in images, leading to a loss of quality and importa
 
 # Repository Overview
 
-## Directory Structure
-
-### Training Files
+## Training Files
 The [detector_training.ipynb](https://github.com/nafis71041/pixelation_correction/blob/main/detector_training.ipynb) and [depixelator_training.ipynb](https://github.com/nafis71041/pixelation_correction/blob/main/depixelator_training.ipynb) files contains all the necessary scripts and notebooks used during the model training process. These files serve as a reference to provide insight into the training procedures. Users are encouraged to review these files to understand the methodologies and potentially modify or extend the models.
 
-### Testing Files
+## Testing Files
 The [detector_testing.ipynb](https://github.com/nafis71041/pixelation_correction/blob/main/detector_testing.ipynb) and [depixelator_testing.ipynb](https://github.com/nafis71041/pixelation_correction/blob/main/depixelator_testing.ipynb) files contains includes detailed scripts and notebooks designed to test the models on user-provided datasets. Each file contains step-by-step instructions on how to load the pre-trained models and perform testing.
 
 ## Steps to Test Models
