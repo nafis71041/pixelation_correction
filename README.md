@@ -17,7 +17,7 @@ Pixelation is a common issue in images, leading to a loss of quality and importa
 - **detector_model**: Contains the architecture and pre-trained weights of the detector model.
 - **training_files**: Includes scripts and notebooks used to train both the detector and depixelator models.
 - **testing_files**: Includes scripts and notebooks for testing the models on user-provided datasets.
-- **detector_005_1.png**: Contains images depicting the architectures of the detector and depixelator models.
+- **[detector_005_1.png](https://github.com/nafis71041/pixelation_correction/blob/main/detector_005_1.png)**: Contains images depicting the architectures of the detector and depixelator models.
 
 ## How to Use This Repository
 
