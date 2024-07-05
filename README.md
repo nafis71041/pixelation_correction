@@ -13,15 +13,12 @@ Pixelation is a common issue in images, leading to a loss of quality and importa
 
 ## Repository Structure
 
-- **[depixelator_model](https://github.com/nafis71041/pixelation_correction/blob/main/depixelator_004_2.keras)**: Contains the architecture and pre-trained weights of the depixelator model.
-- **[detector_model](https://github.com/nafis71041/pixelation_correction/blob/main/detector_005_1_50.keras)**: Contains the architecture and pre-trained weights of the detector model.
-- **[training_files_detector](https://github.com/nafis71041/pixelation_correction/blob/main/detector_training.ipynb)  and [training_files_depixelator](https://github.com/nafis71041/pixelation_correction/blob/main/depixelator_training.ipynb)**: Includes scripts and notebooks used to train both the detector and depixelator models.
-- **[testing_files_detector](https://github.com/nafis71041/pixelation_correction/blob/main/detector_testing.ipynb) and [testing_files_depixelator](https://github.com/nafis71041/pixelation_correction/blob/main/depixelator_testing.ipynb)**: Includes scripts and notebooks for testing the models on user-provided datasets.
-- **[detector_005_1.png](https://github.com/nafis71041/pixelation_correction/blob/main/detector_005_1.png)**: Contains images depicting the architectures of the detector and depixelator models.
+- **[depixelator_004_2.keras](https://github.com/nafis71041/pixelation_correction/blob/main/depixelator_004_2.keras)**: Contains the architecture and pre-trained weights of the depixelator model.
+- **[detector_005_1_50.keras](https://github.com/nafis71041/pixelation_correction/blob/main/detector_005_1_50.keras)**: Contains the architecture and pre-trained weights of the detector model.
+- **[detector_training.ipynb](https://github.com/nafis71041/pixelation_correction/blob/main/detector_training.ipynb)  and [depixelator_training.ipynb](https://github.com/nafis71041/pixelation_correction/blob/main/depixelator_training.ipynb)**: Includes scripts and notebooks used to train both the detector and depixelator models.
+- **[detector_testing.ipynb](https://github.com/nafis71041/pixelation_correction/blob/main/detector_testing.ipynb) and [depixelator_testing.ipynb](https://github.com/nafis71041/pixelation_correction/blob/main/depixelator_testing.ipynb)**: Includes scripts and notebooks for testing the models on user-provided datasets.
+- **[detector_005_1.png](https://github.com/nafis71041/pixelation_correction/blob/main/detector_005_1.png) and [depixelator_004_2.png](https://github.com/nafis71041/pixelation_correction/blob/main/depixelator_004_2.png)**: Contains images depicting the architectures of the detector and depixelator models.
 
-Certainly! Here's a more formal and polished version of your repository documentation:
-
----
 
 # Repository Overview
 
@@ -54,7 +51,3 @@ Ensure that you correctly define the `image_paths`, `image_labels`, `pixelated_i
 This repository offers a comprehensive solution for detecting and depixelating images, utilizing state-of-the-art techniques for efficiency and accuracy. By following the provided instructions and completing the `TODO` cells, users can effectively apply these models to their datasets to achieve high-quality image restoration.
 
 For any questions or issues, please feel free to open an issue on this repository.
-
----
-
-This version is more formal and organized, ensuring clarity and a professional tone.
