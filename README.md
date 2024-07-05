@@ -19,36 +19,42 @@ Pixelation is a common issue in images, leading to a loss of quality and importa
 - **[testing_files_detector](https://github.com/nafis71041/pixelation_correction/blob/main/detector_testing.ipynb) and [testing_files_depixelator](https://github.com/nafis71041/pixelation_correction/blob/main/depixelator_testing.ipynb)**: Includes scripts and notebooks for testing the models on user-provided datasets.
 - **[detector_005_1.png](https://github.com/nafis71041/pixelation_correction/blob/main/detector_005_1.png)**: Contains images depicting the architectures of the detector and depixelator models.
 
-## How to Use This Repository
+Certainly! Here's a more formal and polished version of your repository documentation:
+
+---
+
+# Repository Overview
+
+## Directory Structure
 
 ### Training Files
-
-The training_files directory contains all necessary scripts and notebooks used during the training of the models. These files are provided for reference and should give insight into the model training process. Users are encouraged to review these files to understand the training procedures and potentially modify or extend the models.
+The `training_files` directory contains all the necessary scripts and notebooks used during the model training process. These files serve as a reference to provide insight into the training procedures. Users are encouraged to review these files to understand the methodologies and potentially modify or extend the models.
 
 ### Testing Files
+The `testing_files` directory includes detailed scripts and notebooks designed to test the models on user-provided datasets. Each file contains step-by-step instructions on how to load the pre-trained models and perform testing.
 
-The testing_files directory includes detailed scripts and notebooks to test the models on your own datasets. Each file contains step-by-step instructions on how to load the pre-trained models and perform testing. 
+## Steps to Test Models
 
-#### Steps to Test Models:
+1. **Load the Pre-trained Models**
+   The testing scripts will guide you through the process of loading the pre-trained models for both detection and depixelation tasks.
 
-1. *Load the Pre-trained Models*:
-   The testing scripts will guide you through loading the pre-trained models for both detection and depixelation tasks.
+2. **Prepare Your Dataset**
+   - For the detector model, prepare two lists: `image_paths` and `image_labels`.
+   - For the depixelator model, prepare `pixelated_image_paths` and optionally `real_image_paths`.
 
-2. *Prepare Your Dataset*:
-   - For the detector model, prepare two lists: image_paths and image_labels.
-   - For the depixelator model, prepare pixelated_image_paths and optionally real_image_paths.
+3. **Implement TODO Cells**
+   Each testing file includes `TODO` cells where users must define the paths to their images and labels based on their test dataset organization. Proper completion of these cells is essential for the scripts to access and process the data correctly.
 
-3. *Implement TODO Cells*:
-   Each testing file has TODO cells where you must define the paths to your images and labels according to how your test dataset is organized. These cells are crucial for the scripts to correctly access and process your data.
+## Important Note
 
-
-### Note
-
-- *Implement the TODO Cells*:
-  Make sure to correctly define the image_paths, image_labels, pixelated_image_paths, and real_image_paths lists in the provided TODO cells. This is essential for the scripts to function properly with your dataset.
+Ensure that you correctly define the `image_paths`, `image_labels`, `pixelated_image_paths`, and `real_image_paths` lists in the provided `TODO` cells. This step is critical for the scripts to function correctly with your dataset.
 
 ## Conclusion
 
-This repository provides a comprehensive solution to detect and depixelate images, utilizing state-of-the-art techniques for efficiency and accuracy. By following the provided instructions and modifying the TODO cells, users can effectively use these models on their own datasets to achieve high-quality image restoration.
+This repository offers a comprehensive solution for detecting and depixelating images, utilizing state-of-the-art techniques for efficiency and accuracy. By following the provided instructions and completing the `TODO` cells, users can effectively apply these models to their datasets to achieve high-quality image restoration.
 
 For any questions or issues, please feel free to open an issue on this repository.
+
+---
+
+This version is more formal and organized, ensuring clarity and a professional tone.
