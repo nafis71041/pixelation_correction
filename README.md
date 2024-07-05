@@ -13,7 +13,7 @@ Pixelation is a common issue in images, leading to a loss of quality and importa
 
 ## Repository Structure
 
-- **depixelator_model**: Contains the architecture and pre-trained weights of the depixelator model.
+- **[depixelator_model](https://github.com/nafis71041/pixelation_correction/blob/main/depixelator_004_2.keras)**: Contains the architecture and pre-trained weights of the depixelator model.
 - **detector_model**: Contains the architecture and pre-trained weights of the detector model.
 - **training_files**: Includes scripts and notebooks used to train both the detector and depixelator models.
 - **testing_files**: Includes scripts and notebooks for testing the models on user-provided datasets.
