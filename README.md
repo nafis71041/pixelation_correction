@@ -1,7 +1,9 @@
 # Depixelator and Detector Models
 
 ![Depixelation Example](https://github.com/nafis71041/pixelation_correction/blob/main/depixelation_examples/success4_protest_4x_lanczos_nearest.png)
-An exemplary collage image of a pixelated image, depixelated by our model, and the ground truth.
+pixelated image (left), depixelated by our model (middle), and the ground truth (right)
+## Project Report
+Project report can be found at [here](https://github.com/nafis71041/pixelation_correction/blob/main/Project%20Report.pdf)
 
 ## Description
 
