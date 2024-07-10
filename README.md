@@ -5,7 +5,7 @@
 
 ## Problem Statement
 
-Pixelation is a common issue in images, leading to a loss of quality and important details. The objective of this project is to develop models capable of detecting and depixelating images, restoring them to a higher quality while maintaining computational efficiency.
+Pixelation is a common issue in images, leading to a loss of quality and important details.It generally arises due to downscaling and image by some factor and then upscaling it using some interpolation method. The objective of this project is to develop models capable of detecting and depixelating images, restoring them to a higher quality while maintaining computational efficiency.
 
 ## Description
 
